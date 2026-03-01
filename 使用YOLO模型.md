@@ -110,7 +110,7 @@ YOLOv9 (或定制版)|针对澳大利亚50种动物的识别任务，基于 YOLO
 
     然后对上述的新增进行上传，命令如下：
     ```
-        git add. 
+        git add . 
         git commit -m "第三次提交"
         git branch -M main
         git push -u origin main
