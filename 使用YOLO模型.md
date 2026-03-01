@@ -81,7 +81,7 @@ YOLOv9 (或定制版)|针对澳大利亚50种动物的识别任务，基于 YOLO
     
     - 首先需要在网页端登录github，并创建一个新的仓库，我命名的仓库名是"file_repo"
     - 然后上传本地文件，使用git bash命令端进行，代码如下演示：
-    ```
+    ```git
         cd D:\project\my-project           # 进入本地的工作目录，这里在进的时候可以使用/d/project/my-project方式直接进入
 
         git init                           # 初始化git仓库，其实就是初始化本地my-project文件夹，会生成一个.git文件
@@ -96,4 +96,22 @@ YOLOv9 (或定制版)|针对澳大利亚50种动物的识别任务，基于 YOLO
         git push -u origin main            # 将文件夹上传到github
     ```
 
-我在写上面第2点之前，已经完成了上传，因此，首次上传的文件其实没有包含`2.`之后的内容，现在我又新写了一些东西，再向其传一下。进行更新。
+3. 我在写上面第2点之前，已经完成了上传，因此，首次上传的文件其实没有包含`2.`之后的内容，现在我又新写了一些东西，再向其传一下。进行更新。使用的命令如下：
+    ```git
+        git add. 
+        git commit -m "第二次提交"
+        git branch -M main
+        git push -u origin main
+    ```
+
+4. 我准备在该文件夹下再写一个README文件，并新建一个文件夹，里面放截图，一起上传至该仓库。
+    首先建立文件夹images和README文本文件。如下图：
+    ![文件夹内容](/images/屏幕截图%202026-03-01%20204234.png)
+
+    然后对上述的新增进行上传，命令如下：
+    ```
+        git add. 
+        git commit -m "第三次提交"
+        git branch -M main
+        git push -u origin main
+    ```
